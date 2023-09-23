@@ -1,9 +1,3 @@
-.banner {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
 .aboutRow {
     display: flex;
 }
