@@ -4,17 +4,17 @@ const About = () => {
     return (
         <section className={styles.about}>
             <div className={styles.aboutRow}>
-                <div>
-                    <h2>Texto Importante 1</h2>
-                    <p>Texto</p>
+                <div className={styles.aboutTextContainer}>
+                    <h2 className={styles.aboutTextTitle}>Texto Importante 1</h2>
+                    <p className={styles.aboutText}>Texto</p>
                 </div>
-                <img src="/white-dog.jpg" alt="Cachorro blanco sobre fondo celeste" />
+                <img className={styles.aboutImg} src="/white-dog.jpg" alt="Cachorro blanco sobre fondo celeste" />
             </div>
             <div className={styles.aboutRow}>
-                <img src="/pink-dog.jpg" alt="Caniche sobre fondo rosa" />
-                <div>
-                    <h2>Texto Importante 1</h2>
-                    <p>Texto</p>
+                <img className={styles.aboutImg} src="/pink-dog.jpg" alt="Caniche sobre fondo rosa" />
+                <div className={styles.aboutTextContainer}>
+                    <h2 className={styles.aboutTextTitle}>Texto Importante 2</h2>
+                    <p className={styles.aboutText}>Texto</p>
                 </div>
             </div>
         </section>
