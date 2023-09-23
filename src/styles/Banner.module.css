@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,800&display=swap');
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bannerText {
+    font-family: "Fraunces", serif;
+    font-size: 4em;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

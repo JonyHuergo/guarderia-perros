@@ -6,7 +6,6 @@ const Banner = () => {
             <img src="/banner-img.jpg" alt="Banner" className={styles.bannerImg}/>
             <div className={styles.bannerText}>
                 <h1>El mejor lugar para tu perro</h1>
-                <p>↓</p>
             </div>
         </header>
     );
