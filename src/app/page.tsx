@@ -1,21 +1,11 @@
 import Banner from '../components/Banner';
+import About from '../components/About';
 
 export default function Home() {
   return (
     <main>
       <Banner/>
-      <section>
-        <div>
-          <h2>Texto Importante 1</h2>
-          <p>Texto</p>
-          <img src="" alt="" />
-        </div>
-        <div>
-          <img src="" alt="" />
-          <h2>Texto Importante 1</h2>
-          <p>Texto</p>
-        </div>
-      </section>
+      <About/>
       <section>
         <h2>Reseñas</h2>
         <div>

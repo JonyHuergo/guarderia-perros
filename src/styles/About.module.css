@@ -1,0 +1,19 @@
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.aboutRow {
+    display: flex;
+}
+
+.aboutRow img {
+    width: 50%;
+}
+
+.aboutRow div,
+.aboutRow img  {
+    flex: 50%;
+}
+
