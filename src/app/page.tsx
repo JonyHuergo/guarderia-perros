@@ -1,12 +1,9 @@
-import Image from 'next/image'
+import Banner from '../components/Banner';
 
 export default function Home() {
   return (
     <main>
-      <header>
-        <h1>Guardería Canina</h1>
-        <img src="" alt="" />
-      </header>
+      <Banner/>
       <section>
         <div>
           <h2>Texto Importante 1</h2>
