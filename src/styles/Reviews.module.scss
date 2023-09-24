@@ -1,3 +1,5 @@
+@import "variables";
+
 .reviews {
     text-align: center;
     padding-top: 50px;
@@ -5,7 +7,7 @@
 }
 
 .reviewsTitle {
-    color: rgb(124, 124, 124);
+    color: $text-light;
     font-size: 1.5em;
     font-weight: 600;
 }
@@ -31,12 +33,12 @@
 
 .reviewName {
     font-weight: 800;
-    color: rgb(48, 48, 48);
+    color: $text-dark;
 }
 
 .reviewText {
     font-weight: 600;
-    color: rgb(88, 88, 88);
+    color: $text-medium;
 }
 
 .bottomImg {
