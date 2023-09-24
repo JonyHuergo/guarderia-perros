@@ -2,8 +2,8 @@ import styles from '../styles/Reviews.module.css'
 
 const Reviews = () => {
     return (
-        <section className={styles.reviews}>
-            <h2 className={styles.reviewsTitle}>RESEÑAS</h2>
+        <section className={styles.reviews} id='reviews'>
+            <h2 className={styles.reviewsTitle}>TESTIMONIOS</h2>
             <div className={styles.reviewsContainer}>
                 <div className={styles.review}>
                     <div className={styles.reviewPhotosContainer}>
