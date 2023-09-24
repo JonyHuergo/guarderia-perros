@@ -1,0 +1,44 @@
+.reviews {
+    text-align: center;
+    padding-top: 50px;
+    border-top: 2px solid black;
+}
+
+.reviewsTitle {
+    color: rgb(124, 124, 124);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.reviewsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+
+.reviewPhotosContainer {
+    margin: 20px;
+}
+
+.reviewPhotosContainer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.reviewName {
+    font-weight: 800;
+    color: rgb(48, 48, 48);
+}
+
+.reviewText {
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+}
+
+.bottomImg {
+    width: 100%;
+}

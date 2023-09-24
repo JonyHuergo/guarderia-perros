@@ -3,28 +3,34 @@ import styles from '../styles/Reviews.module.css'
 const Reviews = () => {
     return (
         <section className={styles.reviews}>
-            <h2>Reseñas</h2>
-            <div>
-            <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <h3>Nombre Cliente y Nombre Perro</h3>
-                <p>Texto reseña</p>
+            <h2 className={styles.reviewsTitle}>RESEÑAS</h2>
+            <div className={styles.reviewsContainer}>
+                <div className={styles.review}>
+                    <div className={styles.reviewPhotosContainer}>
+                        <img src="/white-dog.jpg" alt="" />
+                        <img src="/white-dog.jpg" alt="" />
+                    </div>
+                    <h3 className={styles.reviewName}>Nombre Cliente y Nombre Perro</h3>
+                    <p className={styles.reviewText}>Texto reseña</p>
+                </div>
+                <div className={styles.review}>
+                    <div className={styles.reviewPhotosContainer}>
+                        <img src="/white-dog.jpg" alt="" />
+                        <img src="/white-dog.jpg" alt="" />
+                    </div>
+                    <h3 className={styles.reviewName}>Nombre Cliente y Nombre Perro</h3>
+                    <p className={styles.reviewText}>Texto reseña</p>
+                </div>
+                <div className={styles.review}>
+                    <div className={styles.reviewPhotosContainer}>
+                        <img src="/white-dog.jpg" alt="" />
+                        <img src="/white-dog.jpg" alt="" />
+                    </div>
+                    <h3 className={styles.reviewName}>Nombre Cliente y Nombre Perro</h3>
+                    <p className={styles.reviewText}>Texto reseña</p>
+                </div>
             </div>
-            <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <h3>Nombre Cliente y Nombre Perro</h3>
-                <p>Texto reseña</p>
-            </div>
-            <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <h3>Nombre Cliente y Nombre Perro</h3>
-                <p>Texto reseña</p>
-            </div>
-            </div>
-            <img src="" alt="" />
+            <img className={styles.bottomImg} src="/white-dog.jpg" alt="" />
         </section>
     );
 }
