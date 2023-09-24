@@ -30,7 +30,7 @@ const Reviews = () => {
                     <p className={styles.reviewText}>Texto reseña</p>
                 </div>
             </div>
-            <img className={styles.bottomImg} src="/white-dog.jpg" alt="" />
+            <img className={styles.bottomImg} src="/location.jpg" alt="" />
         </section>
     );
 }
